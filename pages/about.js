@@ -1,12 +1,12 @@
 import Head from 'next/head';
     import Link from 'next/link';
 
-    export default function Home() {
+    export default function About() {
       return (
         <div>
           <Head>
-            <title>Next.js Home Page</title>
-            <meta name="description" content="A simple home page built with Next.js" />
+            <title>About Us</title>
+            <meta name="description" content="About us page built with Next.js" />
             <link rel="icon" href="/favicon.ico" />
           </Head>
 
@@ -19,8 +19,8 @@ import Head from 'next/head';
           </nav>
 
           <main className="p-4">
-            <h1 className="text-2xl font-bold">Welcome to Next.js!</h1>
-            <p>This is a simple home page built with Next.js.</p>
+            <h1 className="text-2xl font-bold">About Us</h1>
+            <p>This is the about page.</p>
           </main>
 
           <footer className="bg-gray-800 p-4 text-center text-white">
